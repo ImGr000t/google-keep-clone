@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    
+    width: 19vw;
+    height: 100vh;
+    
+}
+.sidebar nav{
+    
+    padding: 45px;
+    padding-left: 8px;
+}
+
+.sidebar nav li{
+    color: #000000;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.sidebar .notes{
+    margin-top: -20px;
+    padding: 20px;
+  display: flex;
+}
+.sidebar .notes li{
+    margin-bottom: 20px;
+    float: right;
+    margin-left: 20px;
+    padding: 0px;
+  
+    display: flex;
+  }
+
+
+
+.header{
+    display: flex;
+    height: 10vh;
+    
+}
+.header img{
+    height: 50px;
+    width: 50px;
+}
+.header .menu-icon{
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.header .keep{
+    margin: 10px;
+}
+.header .search-box input{
+    background-color: rgb(245, 240, 240);
+    border-radius: 10px;
+    width: 50vw;
+    padding: 12px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 50pxpx;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.header .search-box input:hover{
+   background-color: #fff;
+}
+.header .settings{
+    
+    cursor: pointer;
+    margin: 2px 100px;
+}
+.header .settings img{
+   width: 30px;
+   height: 30px;
+   margin-top: 10px;
+}
+
+
+.main{
+  
+    width: 81vw;
+}
+
+.form form{
+   display: flex;
+   flex-direction: column;
+   width: 40rem;
+}
+
+form > *{
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+
+form textarea{
+    padding: 7px 0 40px 5px;
+    font-family: inherit;
+}
+
+::placeholder{
+    font-size: 1.3rem;
+}
+
+.form button{
+    background-color: #f77;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.form button:hover{
+   
+    background-color: #f778;
+     
+}
+#notes{
+   
+    display: flex;
+}
+
+.note{
+    border: 2px solid purple;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(222, 233, 237);
+    
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+}
+
+.note-text{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.note-title{
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+
+
+.note-btn{
+    
+    position: relative;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.edit-btn{
+    cursor: pointer;
+    
+}
+.edit-btn img{
+    height: 20px;
+}
+.note-btn img{
+    height: 20px;
+}
+
